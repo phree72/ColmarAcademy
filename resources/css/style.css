@@ -306,7 +306,7 @@ footer{
   font-size: 24px;
   color: #333333;
 }
-@media only screen and (min-width: 380px) and (max-width: 802px){
+@media only screen and (min-width: 150px) and (max-width: 802px){
   body{
     min-width: 380px;
     max-width: 802px;
