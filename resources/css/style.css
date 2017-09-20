@@ -13,7 +13,6 @@ header{
   align-items: center;
   height: 64px;
   padding: 0px 24px;
-  border: 1px solid black;
   z-index: 20;
   position: fixed;
   top: 0;
@@ -29,7 +28,7 @@ header{
   flex-flow: row;
   margin-right: auto;
   align-items: center;
-  border: 1px solid black;
+
 }
 .logo h3{
   font-size: 24px;
@@ -42,14 +41,15 @@ header{
  nav ul{
   list-style: none;
   display: flex;
-  border: 1px solid black;
 }
  nav ul li a{
   text-decoration: none;
   padding: 0px 8px;
-  border: 1px solid black;
   font-size: 24px;
   color: #333333;
+}
+nav ul li a:hover{
+  color: blue;
 }
 .main-banner{
   margin-top: 64px;
@@ -61,10 +61,8 @@ header{
   z-index: 1;
 }
 .main-banner img{
-
   width: 60%;
   margin-right: 24px;
-
 }
 .main-banner-right{
   display: flex;
@@ -73,8 +71,6 @@ header{
   width: 40%;
   line-height: 1.4;
   justify-content: center;
-
-  border: 1px solid black;
 }
 .c-t-a{
   margin-top: 40px;
@@ -98,62 +94,34 @@ header{
 }
 .information{
   display: flex;
-
-
-
-
-  border: 1px solid black;
   overflow: auto;
   background-color: #f2f2f2;
 }
-
 .main{
   display: flex;
   flex-flow: column;
-
-
-
-
-  border: 1px solid black;
-
-
 }
 .divider{
   width: 60%;
-
   padding: 32px 24px;
-  border: 1px solid red;
 }
 .main-details{
   display: flex;
   flex-flow: column;
-
 }
-
-
 .main img{
   max-width: 100%;
-  border: 1px solid  blue;
 }
 .campus{
   display: flex;
-
-
   flex-flow: column;
   width: 40%;
-
-
-  border: 1px solid black;
+  border-left: 1px solid #d9d9d9;
   padding-top: 32px;
-
-
 }
 .orientation, .our-campus, .our-guest{
   display: flex;
   flex-flow: row;
-
-
-
 }
 .campus .mobile{
   display: none;
@@ -161,16 +129,14 @@ header{
 .campus .desktop{
   width: 35%;
   height: auto;
-
   border: 1px solid black;
-
 }
 .orientation{
   padding: 0px 0px 16px 16px;
 }
 .our-campus{
   padding: 16px 0px 16px 16px;
-  border: 1px solid black;
+  border-top: 1px solid #d9d9d9;
 }
 .our-guest{
   padding: 16px 0px 16px 16px;
@@ -182,11 +148,7 @@ header{
   font-size: 60px;
   color: #333333;
   font-weight: bolder;
-  border: 1px solid black;
-
-
-
-}
+  }
 .details{
   display: flex;
   flex-flow: column;
@@ -194,7 +156,6 @@ header{
   justify-content: center;
   align-items: flex-start;
   line-height: 1.4;
-  border: 1px solid black;
   padding-left: 16px;
 }
 .details p, .details .hlt a{
@@ -227,7 +188,6 @@ header{
   display: none;
 }
 .start-learning{
-  border: 1px solid red;
   display: flex;
   flex-flow: column;
   padding: 32px 64px;
@@ -239,7 +199,6 @@ header{
   font-size: 60px;
   font-weight: bolder;
   color: #333333;
-  border: 1px solid black;
 }
 .programs img, .programs-middle img{
   width: 100%;
@@ -282,14 +241,12 @@ box-shadow: 10px 10px 5px #b3b3b3;
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
-  border: 1px solid black;
 }
 .bottom{
   width: 100%;
   display: flex;
 }
 .thesis-exhibit{
-  border: 1px solid black;
   padding: 32px 8px 32px 24px;
   width: auto;
   background-color: #f2f2f2;
@@ -304,7 +261,6 @@ box-shadow: 10px 10px 5px #b3b3b3;
   flex-flow: column;
   margin-right: 16px;
   width: 60%;
-  border: 1px solid black;
 }
 .thesis-main .bold{
   margin-top: 24px;
@@ -314,7 +270,6 @@ box-shadow: 10px 10px 5px #b3b3b3;
   flex: auto;
   flex-flow: column;
   min-width: 423px;
-  border: 1px solid black;
 }
 .thesis-exhibit .title{
   text-align: center;
@@ -323,7 +278,6 @@ box-shadow: 10px 10px 5px #b3b3b3;
   display: flex;
   height: 168px;
   padding: 16px;
-  border: 1px solid black;
 }
 .design img, .design-top img{
   width: 35%;
@@ -332,7 +286,6 @@ box-shadow: 10px 10px 5px #b3b3b3;
   background-color: #d9d9d9;
 }
 footer{
-  border: 1px solid black;
   height: 76px;
   padding: 24px 16px 24px 24px;
 }
@@ -450,7 +403,6 @@ footer{
     flex-flow: column;
     background-color: #f2f2f2;
     padding: 32px 16px;
-    border: 1px solid red;
   }
   .start-learning-mobile .title{
     margin-bottom: 0px;
